@@ -223,18 +223,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11440730, guid: e016b3aafbe7402499bb976c2ba0aacb, type: 2}
-      propertyPath: showNavGraphs
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11440730, guid: e016b3aafbe7402499bb976c2ba0aacb, type: 2}
-      propertyPath: astarData.dataString
-      value: UEsDBBQAAAgIAACIn+sYQw2L6QEAAMwDAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFdUl1vGjEQ/CuVn0l1RwhVeUshoZXSBoVWfV7svTsLn33yR/mI+O9d+8wBeTnwznh2ZtfvrA5SsNk7+wcqIJuxMR8XAipAmMA9VtO7afkgppsvhbiHQnBEdhoxcB1y/wZeGjYrR0w606K3kj/qWpFKMWJBy8rY9knUODfOOzarQDkcMWt8vKdj032iHtL3SF+S5qg92gyOJ9cwnU5RmCtoOxRrecTMeyjHiUe/xNBGYA+SNW6Uki7384cuZpxD5wL5HDEhgYzHfiTQoKwbn/4Ot16ryqFPDiwcFtJS7iTGvhnfkEILbns1v95Br/TzFrorCamsab/nPmVBqr6RfPsGBw7ODzO6Li4Gi2UMvwO1hY3Cvw3qX2ZpTdC0P28DXQsOx4tBZMgwb5Bvz5zeWi5lZuhullHmZZxiuv1cyXZDx8+Ty/FxL13iUWGtTBzqV7qLlib/g7ymBbukR7Xo4Y/D31BfXkEuP0vrPAFJDII3L1Jvl1aKC/NcXUjnX2Qr0+BoyTHHxgRLTPaUBkqRg58bqzEW+7gdalD+sKJu/nadH5Ch34f6M3Bv+uFnJL/xW3oqDtyiuAVWZpcXKDWpglr1YDJC49Nnu5p2TXniBD4tLXTxhQkLu6U8tmYIJXVl1twi6td0N1k5/QdQSwMEFAAACAAAAIif6x5/XXYyAAAAMgAAABIAJABncmFwaDBfZWRpdG9yLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF7ImxvY2tlZCI6dHJ1ZSwic2hvd0V4dHJhIjpmYWxzZSwicGl2b3QiOiJDZW50ZXIifVBLAwQUAAAICAAAiJ/rS/DoSnQAAACDAAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAR2MsQ6CMBBA/+VmbEqr1bA6sBF3wnByV7jBlpRiQoz/LnV7w3vvA29Oq8QADVh1UwYqmBIu8wpNfeAmdFAPZjSa0CPjGS17d3L1hdzzqsmippEZhgryvnCHL/4XD8yzl0ASJtUmobZcixUi8T1uIRdND98fUEsBAi0AFAAACAgAAIif6xhDDYvpAQAAzAMAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAAAAIif6x5/XXYyAAAAMgAAABIAJAAAAAAAAAAAAAAANgIAAGdyYXBoMF9lZGl0b3IuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACIn+tL8OhKdAAAAIMAAAAJACQAAAAAAAAAAAAAALwCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAMAAwAcAQAAewMAAAAA
-      objectReference: {fileID: 0}
-    - target: {fileID: 11440730, guid: e016b3aafbe7402499bb976c2ba0aacb, type: 2}
-      propertyPath: showGraphs
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e016b3aafbe7402499bb976c2ba0aacb, type: 2}
   m_IsPrefabParent: 0

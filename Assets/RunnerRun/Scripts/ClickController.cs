@@ -12,7 +12,6 @@ namespace Assets.RunnerRun.Scripts
         private int rayCastLayer = 0;
         private bool fire1Pressed = false;
         private bool sprint = false;
-        private Path path = null;
         private Seeker seeker;
         private Character character;
 
