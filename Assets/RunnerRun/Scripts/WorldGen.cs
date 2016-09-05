@@ -12,6 +12,10 @@ namespace Assets.RunnerRun.Scripts
         public GameObject CharacterPrefab;
         public GameObject CityBlockPrefab;
 
+        public AstarPath Pathfinder;
+
+        protected bool pathGenerated = false;
+
         // Use this for initialization
         void Start ()
         {
@@ -38,8 +42,13 @@ namespace Assets.RunnerRun.Scripts
         }
     
         // Update is called once per frame
-        void Update () {
-    
+        void Update ()
+        {
+            if (!pathGenerated)
+            {
+                Pathfinder.Scan();
+                pathGenerated = true;
+            }
         }
     }
 }
