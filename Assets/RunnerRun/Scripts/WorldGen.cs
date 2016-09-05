@@ -39,6 +39,9 @@ namespace Assets.RunnerRun.Scripts
             var character = (GameObject) Instantiate(CharacterPrefab, Vector3.zero, Quaternion.identity);
             character.transform.parent = transform;
             character.name = "Character";
+
+            var cam = Camera.main.GetComponent<FollowCamera>();
+            cam.SetFollowTarget(character);
         }
     
         // Update is called once per frame

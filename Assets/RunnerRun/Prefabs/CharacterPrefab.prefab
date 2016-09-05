@@ -10,11 +10,11 @@ GameObject:
   - 4: {fileID: 419410}
   - 33: {fileID: 3314742}
   - 23: {fileID: 2389026}
-  - 114: {fileID: 11472254}
   - 64: {fileID: 6417248}
   - 114: {fileID: 11465344}
+  - 114: {fileID: 11422230}
   m_Layer: 0
-  m_Name: Character
+  m_Name: ClickCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,6 +78,21 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300002, guid: df4796b594b970842b69211cb0078c5d, type: 3}
+--- !u!114 &11422230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddb63df39ec42942b8091b73fe541c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterMaterial: {fileID: 2100000, guid: 6e1d36c4bbd37d54f9ea183e4f5fd656, type: 2}
+  Speed: 4
+  SprintSpeed: 10
+  RayCastLayer: 8
 --- !u!114 &11465344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -105,22 +120,6 @@ MonoBehaviour:
     tagsChange: -1
     tagsSet: -1
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
---- !u!114 &11472254
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ddb63df39ec42942b8091b73fe541c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterMaterial: {fileID: 2100000, guid: 6e1d36c4bbd37d54f9ea183e4f5fd656, type: 2}
-  Speed: 4
-  SprintSpeed: 10
-  RayCastLayer: 8
-  Pathfinder: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
